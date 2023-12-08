@@ -1,7 +1,7 @@
 <?php 
 mysqli_report(MYSQLI_REPORT_OFF);
 error_reporting(0);
-$conexao = mysqli_connect('localhost', 'd3f4ltco_mentesbrilhantes', '33941266a', 'd3f4ltco_mentesbrilhantes');
+$conexao = mysqli_connect('localhost', 'root', '', 'd3f4ltco_mentesbrilhantes');
 
 mysqli_query($conexao, "SET NAMES 'utf8'");
 mysqli_query($conexao,'SET character_set_connection=utf8');
